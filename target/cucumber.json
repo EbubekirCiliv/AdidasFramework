@@ -1,0 +1,250 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-16T18:38:27.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Navigating -- Laptop",
+        "description": "",
+        "id": "navigation-menu;navigating----laptop",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the customer on the Home page",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the customer click on Laptops",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Laptops()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the customer click on Sony vaio i5",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Sony_vaio_i5()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the customer click on Add to cart",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the customer Accept pop up confirmation",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_Accept_pop_up_confirmation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the title should be Sony vaio i5",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_title_should_be_Sony_vaio_i5()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation Menu",
+    "description": "",
+    "id": "navigation-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/navigate.feature",
+    "tags": [
+      {
+        "name": "@navigate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-16T18:38:27.902Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.before()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Product Options Customer",
+        "description": "",
+        "id": "product-categories-page;product-options-customer",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.adidas.step_definitions.Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "the customer navigate the Home page",
+            "match": {
+              "location": "com.adidas.step_definitions.ProductCategStepDef.the_customer_navigate_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the customer should see following options",
+            "match": {
+              "location": "com.adidas.step_definitions.ProductCategStepDef.the_customer_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CATEGORIES"
+                ]
+              },
+              {
+                "cells": [
+                  "Phones"
+                ]
+              },
+              {
+                "cells": [
+                  "Laptops"
+                ]
+              },
+              {
+                "cells": [
+                  "Monitors"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product Categories Page",
+    "description": "",
+    "id": "product-categories-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/productcategories.feature",
+    "tags": []
+  }
+]
