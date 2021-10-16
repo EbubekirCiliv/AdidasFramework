@@ -16,14 +16,14 @@ public class BrowserUtils {
      * @param targetTitle
      */
     public static void switchToWindow(String targetTitle) {
-        String origin = Driver.get().getWindowHandle();
-        for (String handle : Driver.get().getWindowHandles()) {
-            Driver.get().switchTo().window(handle);
-            if (Driver.get().getTitle().equals(targetTitle)) {
+        String origin = Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").getWindowHandle();
+        for (String handle : Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").getWindowHandles()) {
+            Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").switchTo().window(handle);
+            if (Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").getTitle().equals(targetTitle)) {
                 return;
             }
         }
-        Driver.get().switchTo().window(origin);
+        Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").switchTo().window(origin);
     }
 
     /**
@@ -32,7 +32,7 @@ public class BrowserUtils {
      * @param element on which to hover
      */
     public static void hover(WebElement element) {
-        Actions actions = new Actions(Driver.get());
+        Actions actions = new Actions(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"));
         actions.moveToElement(element).perform();
     }
 
@@ -58,7 +58,7 @@ public class BrowserUtils {
      */
     public static List<String> getElementsText(By locator) {
 
-        List<WebElement> elems = Driver.get().findElements(locator);
+        List<WebElement> elems = Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").findElements(locator);
         List<String> elemTexts = new ArrayList<>();
 
         for (WebElement el : elems) {
@@ -88,7 +88,7 @@ public class BrowserUtils {
      * @return
      */
     public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), timeToWaitInSec);
+        WebDriverWait wait = new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), timeToWaitInSec);
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
@@ -100,7 +100,7 @@ public class BrowserUtils {
      * @return
      */
     public static WebElement waitForVisibility(By locator, int timeout) {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), timeout);
+        WebDriverWait wait = new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), timeout);
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
@@ -112,7 +112,7 @@ public class BrowserUtils {
      * @return
      */
     public static WebElement waitForClickablility(WebElement element, int timeout) {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), timeout);
+        WebDriverWait wait = new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
@@ -124,7 +124,7 @@ public class BrowserUtils {
      * @return
      */
     public static WebElement waitForClickablility(By locator, int timeout) {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), timeout);
+        WebDriverWait wait = new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
@@ -140,7 +140,7 @@ public class BrowserUtils {
             }
         };
         try {
-            WebDriverWait wait = new WebDriverWait(Driver.get(), timeOutInSeconds);
+            WebDriverWait wait = new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), timeOutInSeconds);
             wait.until(expectation);
         } catch (Throwable error) {
             error.printStackTrace();
@@ -155,7 +155,7 @@ public class BrowserUtils {
      */
     public static void verifyElementDisplayed(By by) {
         try {
-            Assert.assertTrue("Element not visible: " + by, Driver.get().findElement(by).isDisplayed());
+            Assert.assertTrue("Element not visible: " + by, Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").findElement(by).isDisplayed());
         } catch (NoSuchElementException e) {
             e.printStackTrace();
             Assert.fail("Element not found: " + by);
@@ -171,7 +171,7 @@ public class BrowserUtils {
      */
     public static void verifyElementNotDisplayed(By by) {
         try {
-            Assert.assertFalse("Element should not be visible: " + by, Driver.get().findElement(by).isDisplayed());
+            Assert.assertFalse("Element should not be visible: " + by, Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").findElement(by).isDisplayed());
         } catch (NoSuchElementException e) {
             e.printStackTrace();
 
@@ -233,8 +233,8 @@ public class BrowserUtils {
      * @param element
      */
     public static void clickWithJS(WebElement element) {
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", element);
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].click();", element);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].click();", element);
     }
 
 
@@ -244,7 +244,7 @@ public class BrowserUtils {
      * @param element
      */
     public static void scrollToElement(WebElement element) {
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
     /**
@@ -253,7 +253,7 @@ public class BrowserUtils {
      * @param element
      */
     public static void doubleClick(WebElement element) {
-        new Actions(Driver.get()).doubleClick(element).build().perform();
+        new Actions(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).doubleClick(element).build().perform();
     }
 
     /**
@@ -264,7 +264,7 @@ public class BrowserUtils {
      * @param attributeValue
      */
     public static void setAttribute(WebElement element, String attributeName, String attributeValue) {
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", element, attributeName, attributeValue);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", element, attributeName, attributeValue);
     }
 
     /**
@@ -272,9 +272,9 @@ public class BrowserUtils {
      * @param element
      */
     public static void highlight(WebElement element) {
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
         waitFor(1);
-        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].removeAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+        ((JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).executeScript("arguments[0].removeAttribute('style', 'background: yellow; border: 2px solid red;');", element);
     }
 
     /**
@@ -318,7 +318,7 @@ public class BrowserUtils {
      * @param element
      */
     public static void executeJScommand(WebElement element, String command) {
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.get();
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#");
         jse.executeScript(command, element);
 
     }
@@ -329,7 +329,7 @@ public class BrowserUtils {
      * @param command
      */
     public static void executeJScommand(String command) {
-        JavascriptExecutor jse = (JavascriptExecutor) Driver.get();
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#");
         jse.executeScript(command);
 
     }
@@ -348,7 +348,7 @@ public class BrowserUtils {
         while (counter < attempts) {
             try {
                 //selenium must look for element again
-                clickWithJS(Driver.get().findElement(by));
+                clickWithJS(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").findElement(by));
                 //if click is successful - then break
                 break;
             } catch (WebDriverException e) {
@@ -370,7 +370,7 @@ public class BrowserUtils {
      * @param time
      */
     public static void waitForPresenceOfElement(By by, long time) {
-        new WebDriverWait(Driver.get(), time).until(ExpectedConditions.presenceOfElementLocated(by));
+        new WebDriverWait(Driver.get("https://www.demoblaze.com/prod.html?idp_=8#"), time).until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
 

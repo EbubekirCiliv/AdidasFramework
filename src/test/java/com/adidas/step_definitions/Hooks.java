@@ -4,7 +4,6 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import com.adidas.utilities.Driver;
 
-import org.junit.runner.RunWith;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -21,7 +20,7 @@ public class Hooks {
     public void tearDown(Scenario scenario){
         if(scenario.isFailed()){
 
-            final byte[] screenshot =((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
+            final byte[] screenshot =((TakesScreenshot) Driver.get("https://www.demoblaze.com/prod.html?idp_=8#")).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","screenshot");
 
 
@@ -47,7 +46,7 @@ public class Hooks {
     @Before
     public void before(){
 
-        Driver.get().manage().window().maximize();
+        Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").manage().window().maximize();
 
     }
 
@@ -55,7 +54,7 @@ public class Hooks {
     @After
     public void after(){
 
-        Driver.get().close();
+        Driver.get("https://www.demoblaze.com/prod.html?idp_=8#").close();
 
     }
 

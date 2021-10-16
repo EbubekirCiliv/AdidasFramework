@@ -1,6 +1,7 @@
 package com.adidas.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,7 +21,7 @@ public class Driver {
 
     private static WebDriver driver;
 
-    public static WebDriver get() {
+    public static WebDriver get(String s) {
         // Test
         if (driver == null) {
             // this line will tell which browser should open based on the value from properties file
