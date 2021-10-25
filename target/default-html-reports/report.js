@@ -76,11 +76,149 @@ formatter.result({
   "status": "skipped"
 });
 formatter.step({
-  "name": "the title should be Sony vaio i5",
+  "name": "the price should be visible",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_title_should_be_Sony_vaio_i5()"
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_price_should_be_visible()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click the Home button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_the_Home_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click on Laptops",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "click on Dell i7 8gb",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Dell_i7_8gb()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click on Add to cart on Dell",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Add_to_cart_on_Dell()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "Accept pop up confirmation",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.accept_pop_up_confirmation()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click on Add to Chart button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Add_to_Chart_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "delete Dell i7 8gb from Cart.",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.delete_Dell_i7_8gb_from_Cart()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "verify the price decreased as expected",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.verify_the_price_decreased_as_expected()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click on Place Order button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Place_Order_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "fill in all web form fields.",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.fill_in_all_web_form_fields()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "Click on Purchase",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Purchase()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "Capture and log purchase Id and Amount",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.capture_and_log_purchase_Id_and_Amount()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "assert purchase amount equals expected",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.assert_purchase_amount_equals_expected()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "click on Ok button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Ok_button()"
 });
 formatter.result({
   "status": "skipped"

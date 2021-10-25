@@ -77,5 +77,8 @@ public class Driver {
         }
     }
 
+    public static WebDriver get(boolean categories) {
+        return null;
+    }
 }
 

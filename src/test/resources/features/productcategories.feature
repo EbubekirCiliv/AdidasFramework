@@ -5,7 +5,8 @@ Feature:Product Categories Page
     Given the customer navigate the Home page
     Then the customer should see following options
 
-    | CATEGORIES |
-    | Phones     |
-    | Laptops    |
-    | Monitors   |
+    |CATEGORIES|
+    |Phones|
+    |Laptop|
+    |Monitors|
+

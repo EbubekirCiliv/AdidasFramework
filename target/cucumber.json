@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-16T18:38:27.753Z",
+        "start_timestamp": "2021-10-21T15:11:57.302Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "skipped"
             },
             "match": {
@@ -23,7 +23,7 @@
             }
           }
         ],
-        "line": 3,
+        "line": 4,
         "name": "Navigating -- Laptop",
         "description": "",
         "id": "navigation-menu;navigating----laptop",
@@ -53,7 +53,7 @@
               "duration": 1000000,
               "status": "skipped"
             },
-            "line": 5,
+            "line": 6,
             "name": "the customer on the Home page",
             "match": {
               "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_on_the_Home_page()"
@@ -62,25 +62,12 @@
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "the customer click on Laptops",
-            "match": {
-              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Laptops()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2000000,
               "status": "skipped"
             },
             "line": 7,
-            "name": "the customer click on Sony vaio i5",
+            "name": "the customer click on Laptops",
             "match": {
-              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Sony_vaio_i5()"
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Laptops()"
             },
             "keyword": "When "
           },
@@ -90,6 +77,17 @@
               "status": "skipped"
             },
             "line": 8,
+            "name": "the customer click on Sony vaio i5",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Sony_vaio_i5()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
             "name": "the customer click on Add to cart",
             "match": {
               "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_click_on_Add_to_cart()"
@@ -98,10 +96,9 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
-            "line": 9,
+            "line": 10,
             "name": "the customer Accept pop up confirmation",
             "match": {
               "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_customer_Accept_pop_up_confirmation()"
@@ -113,12 +110,167 @@
               "duration": 1000000,
               "status": "skipped"
             },
-            "line": 10,
-            "name": "the title should be Sony vaio i5",
+            "line": 11,
+            "name": "the price should be visible",
             "match": {
-              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_title_should_be_Sony_vaio_i5()"
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.the_price_should_be_visible()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click the Home button",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_the_Home_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "click on Laptops",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click on Dell i7 8gb",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Dell_i7_8gb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "click on Add to cart on Dell",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Add_to_cart_on_Dell()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Accept pop up confirmation",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.accept_pop_up_confirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "click on Add to Chart button",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Add_to_Chart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "delete Dell i7 8gb from Cart.",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.delete_Dell_i7_8gb_from_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "verify the price decreased as expected",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.verify_the_price_decreased_as_expected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "click on Place Order button",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Place_Order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "fill in all web form fields.",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.fill_in_all_web_form_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Click on Purchase",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Capture and log purchase Id and Amount",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.capture_and_log_purchase_Id_and_Amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "assert purchase amount equals expected",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.assert_purchase_amount_equals_expected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "click on Ok button",
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Ok_button()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -148,7 +300,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-16T18:38:27.902Z",
+        "start_timestamp": "2021-10-21T15:11:57.424Z",
         "before": [
           {
             "result": {
@@ -205,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "skipped"
             },
             "line": 6,
