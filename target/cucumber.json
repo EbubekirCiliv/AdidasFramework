@@ -3,12 +3,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-10-21T15:11:57.302Z",
+        "start_timestamp": "2021-11-14T20:00:43.679Z",
         "before": [
           {
             "result": {
-              "duration": 6000000,
-              "status": "skipped"
+              "duration": 5556000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.adidas.step_definitions.Hooks.before()"
@@ -16,7 +16,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.adidas.step_definitions.Hooks.setUp()"
@@ -30,7 +31,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 756000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.adidas.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -38,7 +40,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1650000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.adidas.step_definitions.Hooks.after()"
@@ -50,8 +53,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1824000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "the customer on the Home page",
@@ -62,7 +65,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3156000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "the customer click on Laptops",
@@ -73,8 +77,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 6592000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "the customer click on Sony vaio i5",
@@ -85,7 +89,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8130000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "the customer click on Add to cart",
@@ -96,7 +101,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 19000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "the customer Accept pop up confirmation",
@@ -107,8 +113,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 3072000000,
+              "status": "passed"
             },
             "line": 11,
             "name": "the price should be visible",
@@ -119,7 +125,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3715000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "click the Home button",
@@ -130,16 +137,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3112000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "click on Laptops",
-            "match": {},
+            "match": {
+              "location": "com.adidas.step_definitions.NavigationMenuStepDef.click_on_Laptops()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3558000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "click on Dell i7 8gb",
@@ -150,8 +161,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 5105000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "click on Add to cart on Dell",
@@ -162,8 +173,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 5028000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "Accept pop up confirmation",
@@ -174,7 +185,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3757000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "click on Add to Chart button",
@@ -185,7 +197,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3108000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "delete Dell i7 8gb from Cart.",
@@ -196,7 +209,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "verify the price decreased as expected",
@@ -207,7 +221,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3101000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "click on Place Order button",
@@ -218,7 +233,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 21795000000,
+              "status": "passed"
             },
             "line": 22,
             "name": "fill in all web form fields.",
@@ -229,7 +245,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 68000000,
+              "status": "passed"
             },
             "line": 23,
             "name": "Click on Purchase",
@@ -240,7 +257,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12053000000,
+              "status": "passed"
             },
             "line": 24,
             "name": "Capture and log purchase Id and Amount",
@@ -251,8 +269,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 5036000000,
+              "status": "passed"
             },
             "line": 25,
             "name": "assert purchase amount equals expected",
@@ -263,7 +281,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5798000000,
+              "status": "passed"
             },
             "line": 26,
             "name": "click on Ok button",
@@ -295,108 +314,5 @@
         }
       }
     ]
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2021-10-21T15:11:57.424Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.adidas.step_definitions.Hooks.before()"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.adidas.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "Product Options Customer",
-        "description": "",
-        "id": "product-categories-page;product-options-customer",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.adidas.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.adidas.step_definitions.Hooks.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "the customer navigate the Home page",
-            "match": {
-              "location": "com.adidas.step_definitions.ProductCategStepDef.the_customer_navigate_the_Home_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "the customer should see following options",
-            "match": {
-              "location": "com.adidas.step_definitions.ProductCategStepDef.the_customer_should_see_following_options(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "CATEGORIES"
-                ]
-              },
-              {
-                "cells": [
-                  "Phones"
-                ]
-              },
-              {
-                "cells": [
-                  "Laptops"
-                ]
-              },
-              {
-                "cells": [
-                  "Monitors"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Product Categories Page",
-    "description": "",
-    "id": "product-categories-page",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/productcategories.feature",
-    "tags": []
   }
 ]

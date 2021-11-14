@@ -1,3 +1,12 @@
 C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\step_definitions\ProductCategStepDef.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\utilities\BrowserUtils.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\utilities\Driver.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\utilities\ConfigurationReader.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\pages\CartPage.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\runners\FailedTestRunner.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\step_definitions\NavigationMenuStepDef.java
 C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\step_definitions\Hooks.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\pages\BasePage.java
 C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\runners\CukesRunner.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\pages\PlaceOrderPage.java
+C:\Users\Windows 10\IdeaProjects\AdidasFramework\src\test\java\com\adidas\pages\ProductcategoriesPage.java
